@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -29,6 +29,7 @@
                         <span class="label-text">Mobile Number</span>
                       </label>
                       <input
+                        id="phone-number"
                         type="number"
                         placeholder="Your Phone Number"
                         class="input input-bordered"
@@ -43,6 +44,7 @@
                         type="password"
                         placeholder="Enter your PIN"
                         class="input input-bordered"
+                        autocomplete="off"
                         required
                       />
                       <label class="label">
@@ -52,7 +54,7 @@
                       </label>
                     </div>
                     <div class="form-control mt-6">
-                      <button class="btn btn-primary">Login</button>
+                      <button type="" id="button-login" class="btn btn-primary">Login</button>
                     </div>
                   </form>
                 </div>
@@ -62,5 +64,6 @@
         </div>
       </div>
     </main>
+    <script src="./js/login.js"></script>
   </body>
 </html>
